@@ -1,0 +1,62 @@
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: #1d1d1f;
+	position: fixed;
+	
+}
+
+.navigation-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navigation-bar a {
+	color: white;
+	margin-left: 100px;
+
+}
+.navigation-logo img{
+	width: 110px;
+	height: 110px;
+	font-size: 20px;
+}
+.pccase {
+	width: 100%;
+}
+.main-section {
+	background-image: url(../img/pccase.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	margin-bottom: 150px;
+}
+.catalogbar a {
+	color:white;
+	font-size: 30px;
+	transition: 0.2s;
+	
+}
+.catalog {
+	padding-top: 200px;
+	padding-left: 100px;
+	width: 400px;
+
+}
+.catalog li {
+	margin-top: 40px;
+}
+.catalogbar a:hover {
+	color: red;
+	font-size: 32px;
+	transition: all 0.5s ease-in-out;
+	
+}
