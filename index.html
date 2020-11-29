@@ -4,6 +4,7 @@
 	<title>Final Exam</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/7824020f29.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,47 +13,210 @@
 <body>
 	<header>
 		<div class="header">
-			<div class="navigation-wrapper">
-				<div class="navigation-logo">
+			
+				<div class="navigation-logo" >
 					<a href="index.html">
-						<img src="img/image2.png">
+						<img src="img/image2.png" alt="img">
 					</a>
 				</div>
 				<ul class="navigation">
-					<li class="navigation-bar active">
+					<li class="navigation-bar ">
 						<a href="index.html"> HOME </a>
 					</li>
 					<li class="navigation-bar"> 
-						<a href="#"> CATALOG </a>
+						<a href="#cooler-section"> CATALOG </a>
 						</li>
 					<li class="navigation-bar"> 
-						<a href="#"> CONTACT </a>
+						<a href="contact.html"> CONTACT </a>
 					</li>
 
 				</ul>
-			</div>	
+			<div class="burger-icon">
+				<a href="#">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
 		</div>
+		 
 		
 	</header>
 
 <section class="main-section">
 	<div class="catalog">
 	<li class="catalogbar" >	 
-	 	<a  href="#"> COOLER </a> 
+	 	<a  href="#cooler-section"> COOLER </a> 
 	 </li>
 	<li class="catalogbar" >
-	 	<a href="#"> GRAPHICS CARD </a>
+	 	<a href="#gcard-section"> GRAPHICS CARD </a>
 	</li>
 
 	<li class="catalogbar">	
-	 	<a  href="#"> POWER SUPPLY </a>
+	 	<a  href="#ps-section"> POWER SUPPLY </a>
 	</li>
 	
 	</div>
 </section>
+<!-- COOLER -->
+<section id="cooler-section" class="cooler-section">
+		<h3 class="cooler-title">  COOLERS</h3>
+		<div class="cooler1">
+			<img src="img/cooler1.png" alt="img">
+			<div class="cooler-databox">
+				<h3 class="cooler-data"> PRODUCT NAME:  MASTERFAN MF140 HALO</h3>
+				<h3 class="cooler-data"> PROFILE:  Addressable RGB </h3>
+				<h3 class="cooler-data"> FAN SPEED:  650-1500 RPM </h3>
+				<h3 class="cooler-data"> FAN AIRFLOW:  55 CFM ± 10%</h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $59.73 </h3>
+				<button type="button" value="button" class="cooler-price">BUY NOW</button>
+			</div>
+		</div>
+		<div class="cooler1">
+			<img src="img/cooler.png" alt="img">
+			<div class="cooler-databox">
+				<h3 class="cooler-data"> PRODUCT NAME: AER RGB 2 COMPUTER FAN</h3>
+				<h3 class="cooler-data"> PROFILE:  Addressable RGB </h3>
+				<h3 class="cooler-data"> FAN SPEED: 500-1,500 RPM </h3>
+				<h3 class="cooler-data"> FAN AIRFLOW: 17.48 – 52.44 CFM </h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $77.39 </h3>
+				<button type="button" value="button" class="cooler-price">BUY NOW</button>
+			</div>
+		</div>
+		<div class="cooler1">
+			<img src="img/cooler2.png" alt="img">
+			<div class="cooler-databox">
+				<h3 class="cooler-data"> PRODUCT NAME:  ML140 PRO 140mm</h3>
+				<h3 class="cooler-data"> PROFILE:  Addressable RGB </h3>
+				<h3 class="cooler-data"> FAN SPEED:  400 - 2000 RPM</h3>
+				<h3 class="cooler-data"> FAN AIRFLOW:   97 CFM</h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $60.00 </h3>
+				<button type="button" value="button" class="cooler-price">BUY NOW</button>
+			</div>
+		</div>
+	
+</section>
 
-<
+<!-- GRAPHICS CARD -->
+<section id="gcard-section" class="gcard-section">
+	<h3 class="gcard-title">  GRAPHICS CARDS</h3>
+	<div class="gcard">
+			<img src="img/gcard.png" alt="img">
+				<div class="gcard-databox">
+					<h3 class="gcard-data">Brand:	ASUS </h3>
+					<h3 class="gcard-data"> SERIES:  ROG-STRIX-GTX1070TI-A8G-GAMING</h3>
+					<h3 class="gcard-data"> Graphics:	NVIDIA GeForce GTX 1070 Ti</h3>
+					<h3 class="gcard-data"> Video Output: DisplayPort, DVI, HDMI</h3>
+					
+				</div>
+				<div class="price">
+					<h3>PRICE: $599.00 </h3>
+					<button type="button" value="button" class="gcard-price">BUY NOW</button>
+				</div>
+	</div>
+	<div class="gcard">
+			<img src="img/gcard1.png" alt="img">
+				<div class="gcard-databox">
+					<h3 class="gcard-data">Brand:	ASUS </h3>
+					<h3 class="gcard-data"> SERIES: ROG-STRIX-GTX1080TI-O11G-GAMING</h3>
+					<h3 class="gcard-data"> Graphics:	NVIDIA GeForce GTX 1080 Ti</h3>
+					<h3 class="gcard-data"> Video Output: DisplayPort, DVI, HDMI</h3>
+					
+				</div>
+				<div class="price">
+					<h3>PRICE: $694.99 </h3>
+					<button type="button" value="button" class="gcard-price">BUY NOW</button>
+				</div>
+	</div>
+	
+	<div class="gcard">
+			<img src="img/gcard2.png" alt="img">
+				<div class="gcard-databox">
+					<h3 class="gcard-data">Brand:	XFX </h3>
+					<h3 class="gcard-data"> SERIES: 	RX-580P8DFD6</h3>
+					<h3 class="gcard-data"> Graphics:	Radeon RX 500 RX 580</h3>
+					<h3 class="gcard-data"> Video Output:DVI, HDMI</h3>
+					
+				</div>
+				<div class="price">
+					<h3>PRICE: $694.99 </h3>
+					<button type="button" value="button" class="gcard-price">BUY NOW</button>
+				</div>
+	</div>			
+</section>
 
+<!-- POWER SUPPLY -->
+<section id="ps-section" class="ps-section">
+		<h3 class="ps-title">  POWER SUPPLIES</h3>
+		<div class="ps">
+			<img src="img/ps.webp" alt="img">
+			<div class="ps-databox">
+				<h3 class="ps-data"> BRAND: CORSAIR</h3>
+				<h3 class="ps-data"> SERIES: CX Series™ CX450</h3>
+				<h3 class="ps-data">Continuous output rated temperature C: 40°C </h3>
+				<h3 class="ps-data"> Continuous power W: 450 Watts</h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $64.99 </h3>
+				<button type="button" value="button" class="ps-price">BUY NOW</button>
+			</div>
+		</div>
+
+
+		<div class="ps">
+			<img src="img/ps1.png" alt="img">
+			<div class="ps-databox">
+				<h3 class="ps-data"> BRAND: SEASONIC</h3>
+				<h3 class="ps-data"> SERIES: SSR-850PX</h3>
+				<h3 class="ps-data">Continuous output rated temperature C: 50°C </h3>
+				<h3 class="ps-data"> Continuous power W: 750 Watts</h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $79.99 </h3>
+				<button type="button" value="button" class="ps-price">BUY NOW</button>
+			</div>
+		</div>
+
+		<div class="ps">
+			<img src="img/ps2.png" alt="img">
+			<div class="ps-databox">
+				<h3 class="ps-data"> BRAND: COOLER MASTER</h3>
+				<h3 class="ps-data"> SERIES: MPX-6501-ACAAB</h3>
+				<h3 class="ps-data">Continuous output rated temperature C: 50°C </h3>
+				<h3 class="ps-data"> Continuous power W: 600-750 Watts</h3>
+			</div>
+			<div class="price">
+				<h3>PRICE: $69.99 </h3>
+				<button type="button" value="button" class="ps-price">BUY NOW</button>
+			</div>
+		</div>
+
+</section>
+
+<footer>
+	<div class="media">
+		
+		<a class="fb" href="https://www.facebook.com/" target="_blank">
+			<i class="fab fa-facebook"></i>
+		</a>
+		<a class="instagram" href="https://www.instagram.com/?hl=en" target="_blank"></a>
+			<i class="fab fa-instagram"></i>
+		
+	</div>
+
+	<div class="contact">
+		<h3 > Contact Info</h3>
+		<a href="tel:+995 555 01 02 03" class="tel" target="_blank">
+			TEL: +995 555 01 02 03 
+		</a>
+		<a href="mailto:info@ag.com?subject=The%20subject%20of%20the%20mail" class="mail" target="_blank"> E-MAIL: nikabugo2@gmail.com </a>
+		<a href="https://www.google.com/maps/place/Terminal+%E2%80%A2+%E1%83%A2%E1%83%94%E1%83%A0%E1%83%9B%E1%83%98%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98/@41.707559,44.7634487,17z/data=!3m1!4b1!4m5!3m4!1s0x4044733499073c01:0xdcc74b42ad56dc4b!8m2!3d41.707555!4d44.7656374" class="adress" target="_blank">ADRESS: IRAKLI ABASHIDZE ST. TBILISI</a>
+	</div>
+</footer>
 
 
 </body>

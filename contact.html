@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/7824020f29.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			
+				<div class="navigation-logo">
+					<a href="index.html">
+						<img src="img/image2.png" alt="img">
+					</a>
+				</div>
+				<ul class="navigation">
+					<li class="navigation-bar">
+						<a href="index.html"> HOME </a>
+					</li>
+					<li class="navigation-bar"> 
+						<a href="index.html" target="_blank"> CATALOG </a>
+						</li>
+					<li class="navigation-bar"> 
+						<a href="contact.html"> CONTACT </a>
+					</li>
+
+				</ul>
+				<div class="burger-icon">
+				<a href="#">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+			
+		</div>
+		
+	</header>
+
+
+	<section class="contact-section">
+		<div class="form">
+			<div class="fname">
+				<label for="fname"> Name </label>
+				<input class="input" type="text" name="fullname" id="fname" placeholder="...type your name">
+			</div>
+			<div class="email">
+				<label for="email">	E-mail </label>
+				<input class="input" type="text" name="E-mail" id="email" placeholder="...type your e-mail">
+			</div> 
+			<div class="subject">
+				<label for="subject"> Subject</label>
+				<input class="input" type="text" name="Subject" id="subject" placeholder="...type the mail subject">
+			<div class="message">
+				<label for="message"> Message </label>
+				<textarea id="message"></textarea>
+			</div>
+			<div class="submit">
+				<button id="btn" class="submit" value="submit" type="submit"> SEND 
+				</button>
+				<script>
+					document.getElementById('btn').addEventListener('click',function(){
+						alert('You Registered Successfully')
+					}
+					)
+				</script>
+				
+			</div>	
+		</div>
+		
+	</section>
+	<footer>
+	<div class="media">
+		
+		<a class="fb" href="https://www.facebook.com/" target="_blank">
+			<i class="fab fa-facebook"></i>
+		</a>
+		<a class="instagram" href="https://www.instagram.com/?hl=en" target="_blank"></a>
+			<i class="fab fa-instagram"></i>
+		
+	</div>
+
+	<div class="contact">
+		<h3 > Contact Info</h3>
+		<a href="tel:+995 555 01 02 03" class="tel" target="_blank">
+			TEL: +995 555 01 02 03 
+		</a>
+		<a href="mailto:info@ag.com?subject=The%20subject%20of%20the%20mail" class="mail" target="_blank"> E-MAIL: nikabugo2@gmail.com </a>
+		<a href="https://www.google.com/maps/place/Terminal+%E2%80%A2+%E1%83%A2%E1%83%94%E1%83%A0%E1%83%9B%E1%83%98%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98/@41.707559,44.7634487,17z/data=!3m1!4b1!4m5!3m4!1s0x4044733499073c01:0xdcc74b42ad56dc4b!8m2!3d41.707555!4d44.7656374" class="adress" target="_blank">ADRESS: IRAKLI ABASHIDZE ST. TBILISI</a>
+	</div>
+</footer>
+</body>

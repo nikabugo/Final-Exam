@@ -1,0 +1,14 @@
+@media (max-width: 695px){
+	.navigation {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+}
